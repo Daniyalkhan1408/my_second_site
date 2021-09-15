@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	font-family: "Poppins",sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.menu{
+	font-weight: bold;
+	color:white;
+	background-color: #45015d;
+	border-radius: 15px;
+	padding: 10px 20px;
+	position: fixed;
+	width: 150px;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 8px 16px;
+	width: 100%;
+	box-sizing:border-box;
+}
+.menu a:hover{
+	color: black;
+	background-color: white;
+}
+.main h1{
+	font-size: 64px;
+	font-weight: 400px; 
+}
+.main{
+	margin-left: 360px;
+	margin-right: 40px;
+	margin-top: 80px;
+}
+.images img{
+	width: 45%;
+	border-radius: 10px;
+	margin: 5px; 
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	color: #45015d;
+	font-size: 48px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+hr{
+	width: 100%;
+	border: 5px solid #45015d;
+	border-radius:4px;
+	margin: 20px 0px;
+	box-sizing: border-box;
+}
+.member img{
+	border-radius: 10px;
+	width: 100%;
+	filter: grayscale(30%);
+	
+	
+}
+.member{
+	width: 30%;
+	display: inline-block;
+	padding: 8px;
+}
+.member .description{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 2px 16px 5px;
+
+}
+.tariff-name{
+	color: white;
+	text-align: center;
+	width: 100%;
+	border-radius: 5px;
+	padding:5px;
+	
+}
+.Basic .tariff-name{
+	background-color: #4d004d;
+}
+.pro .tariff-name{
+	background-color: #ff3300;
+}
+
+.pro,.Basic{
+	width: 49%;
+	display: inline-block;
+	background-color:#f2f2f2;
+	text-align: center;
+	
+}
+ul{
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom:0;
+	list-style-type: none;
+	border-radius: 5px;
+
+
+}
+.pro li, .Basic li{
+	padding: 10px 5px;
+	border-bottom: 1px solid lightgrey ;
+	border-radius: 0px;
+
+	
+}
+.price{
+	padding: 38px 6px;
+	font-size: 35px;
+}
+.pro .tariff-name, .Basic .tariff-name{
+	padding: 30px 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.b1{
+	border-radius: 56px;
+	padding: 15px 19px;
+	font-size: 15px;
+}
+
+.b2{
+	border-radius: 56px;
+	padding: 15px 19px;
+	font-size: 15px;
+	background-color:#ff3300; 
+	color: white;
+}
+input{
+	padding: 10px 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.Contact button{
+	background-color:#45015d;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 10px 15px;
+}
+.footer{
+	padding: 100px 100px;
+	background-color: #f2f2f2;
+	width: 100%;
+	text-align: right;
+	box-sizing:border-box;
+	margin: 25px 34px; 
+
+} 
+.footer span{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
